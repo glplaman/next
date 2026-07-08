@@ -5,12 +5,17 @@
   width: 100%;
   z-index: 99;
 
+  .logo {
+    font-size: 4rem;
+    color: #ff0;
+  }
+
   .wrap {
     display: flex;
     gap: var(--p-m-g);
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 120px;
     padding: 10px 20px;
     margin: 0 auto;
     max-width: 1024px;
@@ -21,10 +26,14 @@
       display: flex;
       gap: var(--p-m-g);
       align-items: center;
+
+      .link {
+        border-bottom: 2px solid transparent;
+
+        &.active {
+          border-color: #fff;
+        }
+      }
     }
   }
-}
-
-nav a.active {
-  color: #0070f3;
 }

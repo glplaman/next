@@ -1,5 +1,7 @@
 import Hero from '../../components/Hero'
-
+export const metadata = {
+  title: "Test",
+};
 export default async function About() {
   const res = await fetch('https://glplaman.github.io/utils/data/rank/202602.json')
   const data = await res.json()

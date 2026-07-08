@@ -1,0 +1,23 @@
+.notfound {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  gap: var(--p-m-g);
+  z-index: 100;
+
+  span {
+    font-size: 2rem;
+  }
+
+  p {
+    width: 2px;
+    height: 40px;
+    background-color: #fff;
+    padding-right: 0 var(--p-m-g);
+
+  }
+}
