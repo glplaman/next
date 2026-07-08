@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+
+  .wrap {
+    display: flex;
+    gap: var(--p-m-g);
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    max-width: 1024px;
+    color: #fff;
+    font-size: 1.5rem;
+
+    .menu {
+      display: flex;
+      gap: var(--p-m-g);
+      align-items: center;
+    }
+  }
+}
+
+nav a.active {
+  color: #0070f3;
+}

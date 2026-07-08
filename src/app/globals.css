@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --p-m-g: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,4 +47,11 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.w {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--p-m-g);
 }
